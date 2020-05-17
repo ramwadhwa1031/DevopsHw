@@ -14,7 +14,7 @@ About Task -2
 7.	Job4: if app is not working , then send email to developer with error messages.
 
 8.	Create One extra job job5 for monitor : If container where app is running. fails due to any reson then this job should automatically start the container again.   
-
+CODE for the Whole Automated Process  ----
 DockerFile - 
     FROM centos
     RUN yum install wget -y
